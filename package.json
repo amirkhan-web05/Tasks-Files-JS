@@ -1,0 +1,17 @@
+{
+  "name": "tasks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "server":"json-server --watch ./server/db.json --port 3001"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.17.0",
+    "parcel-bundler": "^1.12.5"
+  }
+}
